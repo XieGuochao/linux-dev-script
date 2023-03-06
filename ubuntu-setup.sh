@@ -14,7 +14,16 @@ sudo apt-get install -y \
  htop \
  python3 \
  python3-pip \
- rsync
+ rsync \
+ acl \
+
+# acl: for KVM access 
+
+# Go
+sudo add-apt-repository ppa:longsleep/golang-backports
+sudo apt update
+sudo apt install -y golang-go
+go version
 
 # Docker
 sudo apt-get install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common
