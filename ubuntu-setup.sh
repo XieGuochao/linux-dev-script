@@ -16,6 +16,13 @@ sudo apt-get install -y \
  python3-pip \
  rsync \
  acl \
+ numactl \
+ hwloc \
+ jq \
+ lsb-core \
+ gnuplot \
+ bison \
+ flex \
 
 # acl: for KVM access 
 
